@@ -43,8 +43,12 @@ jobs:
       working-directory: formatter_lib
 
       run: cmake -H. -Bbuild
+      
+    - name: build formatter_lib
 
-    - run: cmake --build build  
+      working-directory: formatter_lib
+
+      run: cmake --build build  
 
     
 
@@ -53,8 +57,12 @@ jobs:
       working-directory: formatter_ex_lib
 
       run: cmake -H. -Bbuild
+      
+    - name: build formatter_ex_lib
 
-    - run: cmake --build build
+      working-directory: formatter_ex_lib
+
+      run: cmake --build build
 
     
 
@@ -63,8 +71,12 @@ jobs:
       working-directory: hello_world_application
 
       run: cmake -H. -Bbuild
+      
+    - name: build hello_world_application
 
-    - run: cmake --build build
+      working-directory: hello_world_application
+
+      run: cmake --build build
 
     
 
@@ -73,8 +85,12 @@ jobs:
       working-directory: solver_lib
 
       run: cmake -H. -Bbuild
+      
+    - name: build solver_lib
 
-    - run: cmake --build build
+      working-directory: solver_lib
+
+      run: cmake --build build
 
     
 
@@ -83,5 +99,9 @@ jobs:
       working-directory: solver_application
 
       run: cmake -H. -Bbuild
+      
+    - name: Create and build solver_application
 
-    - run: cmake --build build
+      working-directory: solver_application
+
+      run: cmake --build build
