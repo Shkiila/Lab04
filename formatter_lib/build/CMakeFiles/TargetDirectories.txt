@@ -1,3 +1,0 @@
-/home/skiila/papochka/lab3/lab03/formatter_lib/build/CMakeFiles/formatter_lib.dir
-/home/skiila/papochka/lab3/lab03/formatter_lib/build/CMakeFiles/edit_cache.dir
-/home/skiila/papochka/lab3/lab03/formatter_lib/build/CMakeFiles/rebuild_cache.dir
